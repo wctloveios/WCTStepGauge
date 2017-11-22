@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C195A5E1CCDC73A007B5DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A5D1CCDC73A007B5DBA /* main.m */; };
+		1C195A611CCDC73A007B5DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A601CCDC73A007B5DBA /* AppDelegate.m */; };
+		1C195A641CCDC73A007B5DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A631CCDC73A007B5DBA /* ViewController.m */; };
+		1C195A671CCDC73A007B5DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C195A651CCDC73A007B5DBA /* Main.storyboard */; };
+		1C195A691CCDC73A007B5DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C195A681CCDC73A007B5DBA /* Assets.xcassets */; };
+		1C195A6C1CCDC73A007B5DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C195A6A1CCDC73A007B5DBA /* LaunchScreen.storyboard */; };
+		1C195A771CCDC73A007B5DBA /* Step_gaugeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A761CCDC73A007B5DBA /* Step_gaugeTests.m */; };
+		1C195A821CCDC73A007B5DBA /* Step_gaugeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A811CCDC73A007B5DBA /* Step_gaugeUITests.m */; };
+		1C195A911CCE03F6007B5DBA /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C195A901CCE03F6007B5DBA /* UserDefaults.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C195A731CCDC73A007B5DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C195A511CCDC739007B5DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C195A581CCDC739007B5DBA;
+			remoteInfo = "Step gauge";
+		};
+		1C195A7E1CCDC73A007B5DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C195A511CCDC739007B5DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C195A581CCDC739007B5DBA;
+			remoteInfo = "Step gauge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C195A591CCDC739007B5DBA /* Step gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step gauge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C195A5D1CCDC73A007B5DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C195A5F1CCDC73A007B5DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C195A601CCDC73A007B5DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C195A621CCDC73A007B5DBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C195A631CCDC73A007B5DBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C195A661CCDC73A007B5DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C195A681CCDC73A007B5DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C195A6B1CCDC73A007B5DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C195A6D1CCDC73A007B5DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C195A721CCDC73A007B5DBA /* Step gaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step gaugeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C195A761CCDC73A007B5DBA /* Step_gaugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step_gaugeTests.m; sourceTree = "<group>"; };
+		1C195A781CCDC73A007B5DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C195A7D1CCDC73A007B5DBA /* Step gaugeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step gaugeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C195A811CCDC73A007B5DBA /* Step_gaugeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step_gaugeUITests.m; sourceTree = "<group>"; };
+		1C195A831CCDC73A007B5DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C195A8F1CCE03F6007B5DBA /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		1C195A901CCE03F6007B5DBA /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C195A561CCDC739007B5DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A6F1CCDC73A007B5DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A7A1CCDC73A007B5DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C195A501CCDC739007B5DBA = {
+			isa = PBXGroup;
+			children = (
+				1C195A5B1CCDC73A007B5DBA /* Step gauge */,
+				1C195A751CCDC73A007B5DBA /* Step gaugeTests */,
+				1C195A801CCDC73A007B5DBA /* Step gaugeUITests */,
+				1C195A5A1CCDC739007B5DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C195A5A1CCDC739007B5DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C195A591CCDC739007B5DBA /* Step gauge.app */,
+				1C195A721CCDC73A007B5DBA /* Step gaugeTests.xctest */,
+				1C195A7D1CCDC73A007B5DBA /* Step gaugeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C195A5B1CCDC73A007B5DBA /* Step gauge */ = {
+			isa = PBXGroup;
+			children = (
+				1C195A8F1CCE03F6007B5DBA /* UserDefaults.h */,
+				1C195A901CCE03F6007B5DBA /* UserDefaults.m */,
+				1C195A5F1CCDC73A007B5DBA /* AppDelegate.h */,
+				1C195A601CCDC73A007B5DBA /* AppDelegate.m */,
+				1C195A621CCDC73A007B5DBA /* ViewController.h */,
+				1C195A631CCDC73A007B5DBA /* ViewController.m */,
+				1C195A651CCDC73A007B5DBA /* Main.storyboard */,
+				1C195A681CCDC73A007B5DBA /* Assets.xcassets */,
+				1C195A6A1CCDC73A007B5DBA /* LaunchScreen.storyboard */,
+				1C195A6D1CCDC73A007B5DBA /* Info.plist */,
+				1C195A5C1CCDC73A007B5DBA /* Supporting Files */,
+			);
+			path = "Step gauge";
+			sourceTree = "<group>";
+		};
+		1C195A5C1CCDC73A007B5DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C195A5D1CCDC73A007B5DBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C195A751CCDC73A007B5DBA /* Step gaugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C195A761CCDC73A007B5DBA /* Step_gaugeTests.m */,
+				1C195A781CCDC73A007B5DBA /* Info.plist */,
+			);
+			path = "Step gaugeTests";
+			sourceTree = "<group>";
+		};
+		1C195A801CCDC73A007B5DBA /* Step gaugeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C195A811CCDC73A007B5DBA /* Step_gaugeUITests.m */,
+				1C195A831CCDC73A007B5DBA /* Info.plist */,
+			);
+			path = "Step gaugeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C195A581CCDC739007B5DBA /* Step gauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C195A861CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gauge" */;
+			buildPhases = (
+				1C195A551CCDC739007B5DBA /* Sources */,
+				1C195A561CCDC739007B5DBA /* Frameworks */,
+				1C195A571CCDC739007B5DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Step gauge";
+			productName = "Step gauge";
+			productReference = 1C195A591CCDC739007B5DBA /* Step gauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C195A711CCDC73A007B5DBA /* Step gaugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C195A891CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gaugeTests" */;
+			buildPhases = (
+				1C195A6E1CCDC73A007B5DBA /* Sources */,
+				1C195A6F1CCDC73A007B5DBA /* Frameworks */,
+				1C195A701CCDC73A007B5DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C195A741CCDC73A007B5DBA /* PBXTargetDependency */,
+			);
+			name = "Step gaugeTests";
+			productName = "Step gaugeTests";
+			productReference = 1C195A721CCDC73A007B5DBA /* Step gaugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C195A7C1CCDC73A007B5DBA /* Step gaugeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C195A8C1CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gaugeUITests" */;
+			buildPhases = (
+				1C195A791CCDC73A007B5DBA /* Sources */,
+				1C195A7A1CCDC73A007B5DBA /* Frameworks */,
+				1C195A7B1CCDC73A007B5DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C195A7F1CCDC73A007B5DBA /* PBXTargetDependency */,
+			);
+			name = "Step gaugeUITests";
+			productName = "Step gaugeUITests";
+			productReference = 1C195A7D1CCDC73A007B5DBA /* Step gaugeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C195A511CCDC739007B5DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = four;
+				TargetAttributes = {
+					1C195A581CCDC739007B5DBA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+					};
+					1C195A711CCDC73A007B5DBA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+						TestTargetID = 1C195A581CCDC739007B5DBA;
+					};
+					1C195A7C1CCDC73A007B5DBA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+						TestTargetID = 1C195A581CCDC739007B5DBA;
+					};
+				};
+			};
+			buildConfigurationList = 1C195A541CCDC739007B5DBA /* Build configuration list for PBXProject "Step gauge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C195A501CCDC739007B5DBA;
+			productRefGroup = 1C195A5A1CCDC739007B5DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C195A581CCDC739007B5DBA /* Step gauge */,
+				1C195A711CCDC73A007B5DBA /* Step gaugeTests */,
+				1C195A7C1CCDC73A007B5DBA /* Step gaugeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C195A571CCDC739007B5DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C195A6C1CCDC73A007B5DBA /* LaunchScreen.storyboard in Resources */,
+				1C195A691CCDC73A007B5DBA /* Assets.xcassets in Resources */,
+				1C195A671CCDC73A007B5DBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A701CCDC73A007B5DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A7B1CCDC73A007B5DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C195A551CCDC739007B5DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C195A911CCE03F6007B5DBA /* UserDefaults.m in Sources */,
+				1C195A641CCDC73A007B5DBA /* ViewController.m in Sources */,
+				1C195A611CCDC73A007B5DBA /* AppDelegate.m in Sources */,
+				1C195A5E1CCDC73A007B5DBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A6E1CCDC73A007B5DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C195A771CCDC73A007B5DBA /* Step_gaugeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C195A791CCDC73A007B5DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C195A821CCDC73A007B5DBA /* Step_gaugeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C195A741CCDC73A007B5DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C195A581CCDC739007B5DBA /* Step gauge */;
+			targetProxy = 1C195A731CCDC73A007B5DBA /* PBXContainerItemProxy */;
+		};
+		1C195A7F1CCDC73A007B5DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C195A581CCDC739007B5DBA /* Step gauge */;
+			targetProxy = 1C195A7E1CCDC73A007B5DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C195A651CCDC73A007B5DBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C195A661CCDC73A007B5DBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C195A6A1CCDC73A007B5DBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C195A6B1CCDC73A007B5DBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C195A841CCDC73A007B5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shuizhen pang (7284JZV5VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c0c2041b-b828-444a-86d7-d624b5288e7c";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C195A851CCDC73A007B5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shuizhen pang (7284JZV5VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c0c2041b-b828-444a-86d7-d624b5288e7c";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C195A871CCDC73A007B5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Step gauge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmcloud.KMPalmDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c0c2041b-b828-444a-86d7-d624b5288e7c";
+			};
+			name = Debug;
+		};
+		1C195A881CCDC73A007B5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Step gauge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmcloud.KMPalmDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c0c2041b-b828-444a-86d7-d624b5288e7c";
+			};
+			name = Release;
+		};
+		1C195A8A1CCDC73A007B5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Step gaugeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.Step-gaugeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step gauge.app/Step gauge";
+			};
+			name = Debug;
+		};
+		1C195A8B1CCDC73A007B5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Step gaugeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.Step-gaugeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step gauge.app/Step gauge";
+			};
+			name = Release;
+		};
+		1C195A8D1CCDC73A007B5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Step gaugeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.Step-gaugeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Step gauge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C195A8E1CCDC73A007B5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Step gaugeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.Step-gaugeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Step gauge";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C195A541CCDC739007B5DBA /* Build configuration list for PBXProject "Step gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C195A841CCDC73A007B5DBA /* Debug */,
+				1C195A851CCDC73A007B5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C195A861CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C195A871CCDC73A007B5DBA /* Debug */,
+				1C195A881CCDC73A007B5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C195A891CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gaugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C195A8A1CCDC73A007B5DBA /* Debug */,
+				1C195A8B1CCDC73A007B5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C195A8C1CCDC73A007B5DBA /* Build configuration list for PBXNativeTarget "Step gaugeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C195A8D1CCDC73A007B5DBA /* Debug */,
+				1C195A8E1CCDC73A007B5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C195A511CCDC739007B5DBA /* Project object */;
+}
